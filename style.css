@@ -1,0 +1,23 @@
+.menu {
+    font-family:'Courier New', Courier, monospace;
+    width: 400px; /* Ширина меню */
+    list-style-type: none;/* Убирает метки списка */
+    padding: 0;				/* Убирает внутренний отступ слева по умолчанию */
+  }
+   .menu__link {
+    display: block;			/* Ссылка как блочный элемент */
+    width: 100%;				/* Ссылка на всю ширину меню */
+    padding: 5px;				/* Поля вокруг надписи */
+    border-left: 10px solid #231369;	/* Линия слева */
+    background: #8474a1;			/* Исходный цвет фона */
+    color: white;				/* Исходный цвет текста */
+    text-decoration: none	;		/* Убираем подчеркивание у ссылок */
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+   .menu__link:hover {
+    border-left-color: orange;		/* Меняем цвет линии слева */
+    background: #170e41;			/* Новый цвет фона под ссылкой */
+    color: #ffffcc;			/* Новый цвет ссылки */
+    box-shadow: 2px 2px 10px #170e41;
+  }
